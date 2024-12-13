@@ -85,22 +85,7 @@ o	Esta ruta '/' (la raíz de la aplicación) está asociada a la función index(
 •	2. Plantillas
 •	¿Qué son? 
 o	Son archivos HTML que contienen la estructura de las páginas web y pueden incluir variables y lógica de control.
-•	Ejemplo: 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mi aplicación</title>
-</head>
-<body>
-  
-    <p>Lista de médicos:</p>
-    <ul>
-        {% for medico in medicos %}
-            <li>{{ medico.nombre }} - {{ medico.especialidad }}</li>
-        {% endfor %}
-    </ul>
-</body>
-</html>
+
 o	En esta plantilla, el bucle {% for medico in medicos %} itera sobre una lista de médicos y muestra su nombre y especialidad.
 •	3. Base de Datos
 •	¿Para qué se utiliza? 
