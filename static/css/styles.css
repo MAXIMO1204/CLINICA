@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../img/slide3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Estilo para el enlace dentro del párrafo */
+.container-form .formulario p a {
+    color: #07ac96; /* Color verde */
+    font-weight: bold; /* Negrita */
+    text-decoration: none; /* Eliminar subrayado por defecto */
+}
+
+.container-form .formulario p a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+
+
+.welcome-back {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-back .message {
+    margin-bottom: 1.5rem;
+}
+
+.welcome-back h2,h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.welcome-back p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.welcome-back .sign-in-btn {
+    padding: 12px 24px;
+    background-color: #07ac96;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.welcome-back .sign-in-btn:hover {
+    background-color: #055c54;
+    transform: translateY(-2px);
+}
+
+.welcome-back .sign-in-btn:active {
+    transform: translateY(0);
+}
+
+.welcome-back p a {
+    color: #07ac96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.welcome-back p a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="email"],
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #07ac96;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.formulario input[type="submit"] {
+    background-color: #07ac96;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #055c54;
+    transform: translateY(-2px);
+}
+
+.formulario input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+    .container-form {
+        padding: 1rem;
+    }
+
+    .welcome-back,
+    .formulario {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .welcome-back h2,
+    .formulario h2 {
+        font-size: 1.5rem;
+    }
+
+    .formulario input[type="text"],
+    .formulario input[type="password"],
+    .formulario input[type="email"],
+    .formulario input[type="submit"] {
+        font-size: 14px;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #07ac96;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #059b84;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #07ac96;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
