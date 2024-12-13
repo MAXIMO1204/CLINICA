@@ -92,7 +92,7 @@ o	Son archivos HTML que contienen la estructura de las páginas web y pueden inc
     <title>Mi aplicación</title>
 </head>
 <body>
-    <h1>¡Bienvenido!</h1>
+  
     <p>Lista de médicos:</p>
     <ul>
         {% for medico in medicos %}
