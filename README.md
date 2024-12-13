@@ -53,13 +53,17 @@ La migración de la solución a Python con Flask presenta múltiples ventajas, t
  
 
 RESUMEN GENERAL DEL CÓDIGO
+
+
 Este código Python crea una aplicación web Flask que permite gestionar un directorio de médicos. Las principales funcionalidades son:
 •	Inicio de sesión y registro: Los usuarios pueden crear una cuenta y autenticarse para acceder a las funcionalidades de la aplicación.
 •	Listado de médicos: Muestra una lista de todos los médicos registrados en la base de datos, incluyendo su nombre, especialidad, días de atención y foto.
 •	Agregar médicos: Permite agregar nuevos médicos al sistema, incluyendo la carga de una foto.
 •	Editar médicos: Permite modificar los datos de un médico existente, incluyendo la posibilidad de cambiar la foto.
 •	Eliminar médicos: Permite eliminar un médico de la base de datos.
+
 CONCEPTOS CLAVE Y FUNCIONALIDADES
+
 •	Flask: Es el framework web de Python utilizado para construir la aplicación. Facilita la creación de rutas, manejo de solicitudes HTTP y renderizado de plantillas.
 •	MySQL: Es el sistema de gestión de bases de datos utilizado para almacenar la información de los médicos.
 •	Rutas: Son las diferentes URL que la aplicación puede manejar (por ejemplo, '/login', '/staff', etc.). Cada ruta está asociada a una función que se ejecuta cuando se accede a esa URL.
